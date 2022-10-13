@@ -42,3 +42,19 @@ dart.push ('Hawkins')
 
 wolfy[0] = 'Gameboy'
 // console.log (wolfy)
+
+
+// Yell at the Ninja Turtles
+
+let ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+
+// for (let i = 0; i < ninjaTurtles.length; i++) {
+//    ninjaTurtles[i] = ninjaTurtles[i].toUpperCase()
+// }
+const ninja = []
+
+for (let item of ninjaTurtles) {
+    ninja.push(item.toUpperCase())
+}
+
+// console.log (ninja)
